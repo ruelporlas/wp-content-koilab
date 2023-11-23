@@ -1,0 +1,390 @@
+.edd-recurring-single,	 		    	      	       	     	  
+.edd_recurring_custom_wrap {    	     		    	 
+	margin-top: 18px;
+}
+
+.section-content .edd-subscription-details__section-wrapper > * {
+	padding: 20px 0;
+}
+
+.edd-subscription-details__warning {
+	background-color: #fff8e2;
+	margin: -20px -20px 0 -20px;
+	padding: 20px !important;
+}
+
+.edd-recurring-subscription-section {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.subscription-details__id {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px;
+	background-color: #fafafa;
+	border-bottom-left-radius: 20%;
+	border: 1px solid #eee;
+	border-top: none;
+	border-right: none;
+	font-family: monospace;
+	font-size: 18px;
+	font-weight: 600;
+	z-index: 5;
+}
+
+.edd-recurring-subscription__customer {
+	align-items: flex-end;
+}
+
+.edd-recurring-subscription__customer .customer-info {
+	min-height: auto !important;
+	display: flex;
+	align-items: center;
+}
+
+.edd-recurring-subscription__customer .customer-info .customer-name {
+	font-size: 15px;
+}
+
+.edd-recurring-subscription__pricing .edd-item-hidden-row {
+	margin-top: 8px;
+}
+
+.edd-recurring-subscription__pricing .edd-item-hidden-row__item {
+	border-left: 1px solid #e5e5e5;
+	padding: 6px 10px;
+}
+
+.edd-recurring-subscription-section .edd-form-group {
+	flex-grow: 1;
+	margin-bottom: 16px;
+}
+
+.edd-recurring-subscription__item-wrapper_add-new {
+	max-width: 1200px;
+	margin-top: 15px;
+}
+
+.edd-recurring-subscription__item-wrapper .section-wrap.section-content h2 {
+	flex-basis: 100%;
+	margin: 0 0 1em;
+}
+
+.edd-recurring-subscription__billing {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.edd_recurring_custom_wrap legend {
+	font-weight: 600;
+}
+
+.edd_recurring_custom_wrap p {
+	flex-basis: 100%;
+}
+
+.subscription-actions {
+	flex-basis: 100%;
+}
+
+.edd-recurring-subscription__customer .edd-recurring-change-customer {
+	margin-top: 5px;
+}
+
+.edd-recurring-subscription__customer .subscription-actions {
+	margin: 0 0 20px;
+}
+
+div.edd-recurring-subscription__reveal {
+	display: none;
+}
+
+.no-js div.edd-recurring-subscription__reveal {
+	display: flex;
+}
+
+.edd-recurring-subscription-section .edd-select-chosen {
+	min-width: 300px !important;
+	max-width: 100%;
+	width: unset;
+}
+
+.edd-recurring-subscription__customer .edd-select-chosen {
+	width: 350px;
+	max-width: 350px;
+}
+
+#edd-sub-add-renewal {
+	margin-top: 1em;
+}
+
+#edd-sub-add-renewal .edd-form-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 1em;
+}
+
+#edd-sub-add-renewal .edd-form-group__label {
+	flex: 0 0 150px;
+}
+
+#edd-sub-add-renewal .edd-form-group__control {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.edd-form-group-inline .edd-form-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 1em;
+	-webkit-box-align: top;
+	    -ms-flex-align: top;
+	        align-items: top;
+	width: 100%;
+}
+
+.edd-form-group-inline .edd-form-group__label {
+	min-width: 180px;
+}
+
+.edd-form-group-inline .edd-form-group__help {
+	flex-basis: 100%;
+}
+
+.edd-recurring-subscription__details .edd-form-group__control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+@media only screen and (max-width: 767px) {
+	.edd-form-group-inline .edd-form-group {
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.edd-form-group-inline .edd-form-group__label {
+		min-width: 100%;
+	}
+
+	#edd-sub-add-renewal .edd-form-group {
+		flex-wrap: wrap;
+	}
+
+	#edd-sub-add-renewal .edd-form-group__label {
+		flex-basis: 100%;
+	}
+}
+
+#edd-sub-add-renewal input {
+	padding: 0 8px;
+}
+
+.edd-recurring-add-renewal-actions {
+	display: flex;
+	gap: 8px;
+	justify-content: flex-end;
+}
+
+input.button.edd-delete-subscription {
+	color: #b32d2e;
+	border-color: #b32d2e;
+}
+
+.subscription-note {
+	padding: 8px;
+}
+
+.edd-subscription-notes {
+	margin-bottom: 20px;
+}
+
+.edd-subscription-note {
+	padding: 10px;
+    background-color: #ffe;
+    border: 1px solid #cc0;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.edd-recurring-subscription__item-wrapper #edd-item-card-wrapper .item-section {
+	border: none !important;
+	margin: 0 !important;
+	box-shadow: none !important;
+}
+
+#edd-item-card-wrapper .customer-section.customer-section__customer,
+#edd-item-card-wrapper.edd-recurring-subscription__item-wrapper .item-section {
+	overflow: visible;
+}
+
+.edd-recurring-subscription-details>div:not(:last-of-type) {
+	margin-bottom: 8px;
+}
+
+.edd-recurring-subscription-details--id {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+
+.edd-recurring-subscription__item-wrapper .wp-list-table thead {
+	background: #f6f7f7;
+}
+
+.edd-recurring-subscription-table {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 20px;
+	gap: 15px;
+}
+
+.edd-recurring-subscription-table .edd-recurring-subscription-table_column {
+	flex: 1;
+	min-width: 250px;
+	border: 1px solid #c3c4c7;
+}
+
+.edd-recurring-subscription-table .edd-recurring-subscription-table_column-header {
+	background: #f6f7f7;
+	border-bottom: 1px solid #c3c4c7;
+	padding: 8px 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+.edd-recurring-subscription-table .edd-recurring-subscription-table_column-content {
+	padding: 8px 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.edd-recurring-subscription-table_hidden-mobile {
+		display: none;
+	}
+
+	.edd-recurring-subscription-table .edd-recurring-subscription-table_column {
+		min-width: 100%;
+	}
+}
+
+
+/* Status labels. */
+.edd-admin-subscription-status-badge {
+	padding: 2px 7px;
+	border-radius: 4px;
+	background: #ececec;
+	display: inline-flex;
+	align-items: center;
+}
+
+.edd-admin-subscription-status-badge--failing {
+	color: #ac3d3d;
+	background: #ffd6d6;
+}
+
+.edd-admin-subscription-status-badge--active,
+.edd-admin-order-status-badge--edd_subscription {
+	color: #017d5c;
+	background: #e5f5f0;
+}
+
+.edd-admin-subscription-status-badge--pending {
+	color: #7d6e01;
+	background: #f5f2e5;
+}
+
+.edd-admin-subscription-status-badge--completed {
+	color: #015a7d;
+	background: #e5f1f5;
+}
+
+.edd-admin-order-status-badge--edd_subscription .edd-admin-order-status-badge__icon {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+/* These can be removed when EDD 3.0 is standard. */
+.edd-form-row {
+	display: flex;
+	gap: 0 !important;
+	padding-right: 0;
+}
+
+.edd-form-row .edd-form-group {
+	margin-bottom: 12px;
+}
+
+.edd-form-row .edd-form-group:not(:last-child) {
+	margin-right: 12px;
+}
+
+.edd-form-group__control--is-inline {
+	display: inline-flex;
+	align-items: flex-end;
+}
+
+.edd-form-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.edd-form-row__column {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.edd-form-row .edd-form-group__label {
+	margin-bottom: 0;
+}
+
+.edd-form-group__input.edd-price-field {
+	padding: 0 8px !important;
+}
+
+.edd-form-group__label {
+	display: block;
+	margin-bottom: 8px;
+	padding: 0;
+}
+
+.edd-recurring-subscription__item-wrapper #edd-item-tab-wrapper-list li {
+	padding: 0 !important;
+}
+
+.edd-recurring-subscription__item-wrapper #edd-item-tab-wrapper-list li a {
+	display: flex;
+	margin: 0;
+	gap: 4px;
+	text-decoration: none;
+	align-items: center;
+	padding: 9px !important;
+}
+
+.edd-recurring-subscription__item-wrapper #edd-item-tab-wrapper-list li.active a {
+	box-shadow: inset 5px 0 #0073aa;
+	margin-right: -1px;
+}
+
+/* EDD 2.11 compatibility styles */
+.download_page_edd-subscriptions #edd-item-wrapper {
+	position: relative;
+}
+
+#edd-item-card-wrapper.edd-subscription-card-wrapper .customer-section {
+	overflow: unset;
+}
